@@ -1,6 +1,6 @@
 # ChaCha Project Website
 
-https://naver-ai.github.io/chacha/
+https://naver-ai.github.io/aacesstalk/
 
 
 ## How to Run
@@ -27,7 +27,7 @@ https://naver-ai.github.io/chacha/
 ### Deploying Website to Github Pages
 1. Change public url in `package.json`:
    ```json
-    "build": "rm -rf dist && rm -rf .parcel-cache && rm -rf .cache && parcel build index.html ./public/*.pdf --public-url https://naver-ai.github.io/chacha",
+    "build": "rm -rf dist && rm -rf .parcel-cache && rm -rf .cache && parcel build index.html ./public/*.pdf --public-url https://naver-ai.github.io/aacesstalk",
    ```
    Replace the public-url argument value 'https://naver-ai.github.io/chacha' with the domain you are using.
 2. Run deployment script:
