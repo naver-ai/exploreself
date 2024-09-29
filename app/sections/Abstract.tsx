@@ -5,20 +5,20 @@ import { NewspaperIcon } from "@heroicons/react/20/solid"
 export const Abstract = () => {
     return <Section title="Abstract" className="flex-1 pt-0 md:pt-12">
         <p>
-        Children typically learn to identify and express emotions through sharing their stories and feelings with others, particularly their family. However, it is challenging for parents or siblings to have emotional communication with children since children are still developing their communication skills. We present <b>ChaCha</b>, a chatbot that encourages and guides children to share personal events and associated emotions. <strong>ChaCha combines a state machine and large language models (LLMs) to keep the dialogue on track while carrying on free-form conversations.</strong> Through an exploratory study with 20 children (aged 8-12), we examine how ChaCha prompts children to share personal events and guides them to describe associated emotions. Participants perceived ChaCha as a close friend and shared their stories on various topics, such as family trips and personal achievements. Based on the findings, we discuss opportunities for leveraging LLMs to design child-friendly chatbots to support children in sharing emotions.
+        As minimally verbal autistic (MVA) children communicate with parents through few words and nonverbal cues, parents often struggle to encourage their children to express subtle emotions and needs and to grasp their nuanced signals. We present AACessTalk, a tablet-based, AI-mediated communication system that facilitates meaningful exchanges between an MVA child and a parent. AACessTalk provides real-time guides to the parent to engage the child in conversation and, in turn, recommends contextual vocabulary cards to the child. Through a two-week deployment study with 11 MVA child-parent dyads, we examine how AACessTalk fosters everyday conversation practice and mutual engagement. Our findings show high engagement from all dyads, leading to increased frequency of conversation and turn-taking. AACessTalk also encouraged parents to explore their own interaction strategies and empowered the children to have more agency in communication. We discuss the implications of designing technologies for balanced communication dynamics in parent-MVA child interaction.
         </p>
         <div className="flex flex-wrap gap-4 mt-4">
             <a className="icon-label-button bg-teal-500 pl-4" aria-disabled={true} href={"./public/chacha-chi24-preprint-240219.pdf"} target="_blank">
                 <NewspaperIcon className="w-6 h-6 text-white"/>
                 <span>Paper</span>
             </a>
-            <a className="icon-label-button bg-red-400 pl-4" href="https://arxiv.org/abs/2309.12244" target="_blank">
+            <a className="icon-label-button bg-red-400 pl-4" href="https://arxiv.org/abs/2409.09641" target="_blank">
                 <ArxivIcon size={20}/>
                 <span>arXiv</span>
             </a>
-            <a className="icon-label-button" href="https://github.com/naver-ai/chacha-chatbot" target="_blank">
+            <a className="icon-label-button" href="#">
                 <GithubIcon size={28}/>
-                <span>Source code</span>
+                <span>Source code (Coming Soon)</span>
             </a>
         </div>
     </Section>

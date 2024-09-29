@@ -1,4 +1,4 @@
-# ChaCha Project Website
+# AACessTalk Project Website
 
 https://naver-ai.github.io/aacesstalk/
 
@@ -29,7 +29,7 @@ https://naver-ai.github.io/aacesstalk/
    ```json
     "build": "rm -rf dist && rm -rf .parcel-cache && rm -rf .cache && parcel build index.html ./public/*.pdf --public-url https://naver-ai.github.io/aacesstalk",
    ```
-   Replace the public-url argument value 'https://naver-ai.github.io/chacha' with the domain you are using.
+   Replace the public-url argument value 'https://naver-ai.github.io/aacesstalk' with the domain you are using.
 2. Run deployment script:
    ```sh
    > npm run deploy

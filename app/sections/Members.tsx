@@ -3,32 +3,31 @@ import { HomeIcon } from '@heroicons/react/20/solid'
 
 const members = [
     {
-        name: "Woosuk Seo",
-        affiliation: "Univ. of Michigan, Ann Arbor",
-        role: "PhD candidate",
-        thumb: require("../../public/images/thumb-wsseo.jpg"),
-        web: "https://seowoosuk.wixsite.com/home",
+        name: "Dasom Choi",
+        affiliation: "KAIST",
+        role: "PhD Candidate",
+        thumb: require("../../public/images/thumb-dschoi.jpg"),
+        web: "https://dasomchoi.com/",
         note: "*Research intern at NAVER AI Lab"
     },
     {
-        name: "Chanmo Yang",
-        affiliation: "Wonkwang Univ. Hospital",
-        role: "Child and Adolescent Psychiatrist",
-        thumb: require("../../public/images/thumb-cmyang.jpg"),
+        name: "SoHyun Park",
+        affiliation: "NAVER Cloud",
+        role: "Researcher",
+        thumb: require("../../public/images/thumb-shpark.jpg")
     },
     {
-        name: "Sun Young Park",
-        affiliation: "Univ. of Michigan, Ann Arbor",
+        name: "Kyungah Lee",
+        affiliation: "Dodakim Child Development Center",
+        role: "Licensed Counselor",
+        thumb: require("../../public/images/thumb-dschoi.jpg"),
+    },
+    {
+        name: "Hwajung Hong",
+        affiliation: "KAIST",
         role: "Associate Professor",
-        thumb: require("../../public/images/thumb-sypark.jpg"),
-        web: "http://sunyoungpark.weebly.com/",
-    },
-    {
-        name: "Mark S. Ackerman",
-        affiliation: "Univ. of Michigan, Ann Arbor",
-        role: "Professor",
-        thumb: require("../../public/images/thumb-mackerman.jpg"),
-        web: "https://www.socialworldsresearch.org/si/ackerm"
+        thumb: require("../../public/images/thumb-hjhong.jpg"),
+        web: "https://galaxytourist.notion.site/Hwajung-Hong-cc10b0291bbe4ca38dbf4882cd687423"
     },
     {
         name: "Young-Ho Kim",
@@ -65,9 +64,8 @@ export const Members = () => {
         }
         </div>
         <div className="mt-8 flex items-center gap-6 gap-y-8 flex-wrap">
-            <img className="w-[200px]" alt="NAVER logo" src={require("../../public/images/logos/ai_lab_logo_vertical.png")} width={1728} height={552}/>
-            <a href="https://www.si.umich.edu/" target="_blank"><img className="w-20" alt="UMSI logo" src={require("../../public/images/logos/umsi-logo.svg")}/></a>
-            <a href="https://global.wkuh.org/" target="_blank"><img className="w-[250px]" alt="Wonkwang logo" src={require("../../public/images/logos/wonkwang-logo.svg")}/></a>
+            <a href="https://clova.ai/en/ai-research" target="_black"><img className="w-[200px]" alt="NAVER logo" src={require("../../public/images/logos/ai_lab_logo_vertical.png")} width={1728} height={552}/></a>
+            <a href="https://www.kaist.ac.kr/en/" target="_blank"><img className="w-[200px]" alt="KAIST logo" src={require("../../public/images/logos/kaist_logo_trans.png")}/></a>
             
         </div>
     </Section>
