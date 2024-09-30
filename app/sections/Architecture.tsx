@@ -1,6 +1,6 @@
 import { Section } from "../components/Section"
 export const Architecture = () => {
-    return <Section title="How ChaCha Works">
+    return <Section title="How AACessTalk Works">
         <p className="mb-4">
             ChaCha&apos;s conversational flow is designed as a state machine, where the system stays in one state and proceeds to the next one when meeting the state goal:
         </p>

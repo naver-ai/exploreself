@@ -12,14 +12,14 @@ const bibTex = "@misc{choi2024aacesstalk,<br/>\n\
 
 export const Cite = () => {
     return <Section title="Citing This Work">
-        <div className="border-y-[1px] border-slate-400 py-3">
+        <div className="border-y-2 border-purple-500/30 py-3">
             <div>Dasom Choi, SoHyun Park, Kyungah Lee, Hwajung Hong, and Young-Ho Kim. 2024.</div>
             <div className="font-bold">AACessTalk: Fostering Communication between Minimally Verbal Autistic Children and Parents with Contextual Guidance and Card Recommendation.</div>
             <div>https://doi.org/10.48550/arXiv.2409.09641</div>
         </div>
         <div className="mt-4">
             <div className="font-bold mb-1">BibTeX</div>
-            <p className={"p-3 font-mono text-xs sm:text-sm border-[1px] rounded-lg border-slate-300 decoration-none"} dangerouslySetInnerHTML={{__html: bibTex}}/>
+            <p className={"p-3 font-mono text-xs sm:text-sm border-2 rounded-lg border-purple-500/30 decoration-none"} dangerouslySetInnerHTML={{__html: bibTex}}/>
         </div>
         
     </Section>

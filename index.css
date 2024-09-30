@@ -19,12 +19,13 @@
 
 body {
   color: var(--foreground-rgb);
-  background: linear-gradient(
+  /*background: linear-gradient(
       to bottom,
       transparent,
       var(--background-end-rgb)
     )
-    var(--background-start-rgb);
+    var(--background-start-rgb);*/
+  background: #ffcf68;
 }
 
 @layer base{
