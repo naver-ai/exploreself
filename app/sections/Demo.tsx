@@ -1,5 +1,15 @@
+import Lottie from 'react-lottie';
+
+const animData = require('../../public/settings-anim.json')
+
+const lottieOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animData
+}
+
 export const Demo = () => {
-    return <div className="mt-10">
-        <iframe src="https://drive.google.com/file/d/1mTnPr7D0XJdSBrYoH2pVJWRsAEJUCFcM/preview" allow="autoplay" className="aspect-video w-full"></iframe>
+    return <div className="mt-10 rounded-xl overflow-hidden">
+        <Lottie options={lottieOptions}/>
     </div>
 }

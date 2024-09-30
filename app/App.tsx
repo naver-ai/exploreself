@@ -6,6 +6,7 @@ import { Footer } from "./sections/Footer";
 import { Architecture } from "./sections/Architecture";
 import { Mockup } from "./sections/Mockup";
 import { Demo } from "./sections/Demo";
+import { Video } from "./sections/Video";
 
 export function App() {
   return (<>
@@ -18,6 +19,7 @@ export function App() {
       
       <Demo/>
       <Abstract/>
+      <Video/>
       <Members/>
       <Cite/>
       <Acknowledgments/>
