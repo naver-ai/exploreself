@@ -25,12 +25,12 @@ body {
       var(--background-end-rgb)
     )
     var(--background-start-rgb);*/
-  background: #ffcf68;
+  background: #fafafa;
 }
 
 @layer base{
   body {
-    @apply font-Nunito;
+    @apply font-main;
   }
 
   p {

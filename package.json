@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "rm -rf dist && parcel index.html --port 3000 --open",
-    "build": "rm -rf dist && rm -rf .parcel-cache && rm -rf .cache && parcel build index.html ./public/*.pdf --public-url https://naver-ai.github.io/aacesstalk",
+    "build": "rm -rf dist && rm -rf .parcel-cache && rm -rf .cache && parcel build index.html ./public/*.pdf --public-url https://naver-ai.github.io/elmi",
     "predeploy": "npm run build",
     "deploy": "gh-pages -f -d dist"
   },
@@ -19,7 +19,7 @@
     "prismjs-bibtex": "^2.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "react-lottie": "^1.2.4",
+    "react-lottie": "^1.2.10",
     "tailwindcss": "^3.4.1"
   },
   "devDependencies": {

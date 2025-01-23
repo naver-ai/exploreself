@@ -1,6 +1,6 @@
-# AACessTalk Project Website
+# ELMI Project Website
 
-https://naver-ai.github.io/aacesstalk/
+https://naver-ai.github.io/elmi/
 
 
 ## How to Run

@@ -5,20 +5,25 @@ import { NewspaperIcon } from "@heroicons/react/20/solid"
 export const Abstract = () => {
     return <Section title="Abstract" className="flex-1 pt-0 md:pt-12">
         <p>
-        As minimally verbal autistic (MVA) children communicate with parents through few words and nonverbal cues, parents often struggle to encourage their children to express subtle emotions and needs and to grasp their nuanced signals. We present AACessTalk, a tablet-based, AI-mediated communication system that facilitates meaningful exchanges between an MVA child and a parent. AACessTalk provides real-time guides to the parent to engage the child in conversation and, in turn, recommends contextual vocabulary cards to the child. Through a two-week deployment study with 11 MVA child-parent dyads, we examine how AACessTalk fosters everyday conversation practice and mutual engagement. Our findings show high engagement from all dyads, leading to increased frequency of conversation and turn-taking. AACessTalk also encouraged parents to explore their own interaction strategies and empowered the children to have more agency in communication. We discuss the implications of designing technologies for balanced communication dynamics in parent-MVA child interaction.
+        d/Deaf and hearing song-signers have become prevalent across video-sharing platforms, but translating songs into sign language remains cumbersome and inaccessible.
+Our formative study revealed the challenges song-signers face, including semantic, syntactic, expressive, and rhythmic considerations in translations.
+We present ELMI, an accessible song-signing tool that assists in translating lyrics into sign language. ELMI enables users to edit glosses line-by-line, with real-time synced lyric and music video snippets. Users can also chat with a large language model-driven AI to discuss meaning, glossing, emoting, and timing.
+Through an exploratory study with 13 song-signers, we examined how ELMI facilitates their workflows and how song-signers leverage and receive an LLM-driven chat for translation.
+Participants successfully adopted ELMI to song-signing, with active discussions throughout. They also reported improved confidence and independence in their translations, finding ELMI  encouraging, constructive, and informative.
+We discuss research and design implications for accessible and culturally sensitive song-signing translation tools.
         </p>
         <div className="flex flex-wrap gap-4 mt-4">
-            <a className="icon-label-button bg-teal-500 pl-4" aria-disabled={true} href={"./public/aacesstalk-arxiv24.pdf"} target="_blank">
+            <a className="icon-label-button bg-teal-500 pl-4" aria-disabled={true} target="_blank">
                 <NewspaperIcon className="w-6 h-6 text-white"/>
-                <span>Paper</span>
+                <span>Paper (Coming Soon)</span>
             </a>
-            <a className="icon-label-button bg-red-400 pl-4" href="https://arxiv.org/abs/2409.09641" target="_blank">
+            <a className="icon-label-button bg-red-400 pl-4" href="https://arxiv.org/abs/2409.09760" target="_blank">
                 <ArxivIcon size={20}/>
                 <span>arXiv</span>
             </a>
-            <a className="icon-label-button" href="#">
+            <a className="icon-label-button" href="https://github.com/naver-ai/elmi-monorepo" target="_blank">
                 <GithubIcon size={28}/>
-                <span>Source code (Coming Soon)</span>
+                <span>Source code</span>
             </a>
         </div>
     </Section>

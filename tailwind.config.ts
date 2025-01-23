@@ -18,7 +18,7 @@ const config: Config = {
     },
     extend: {
       fontFamily: {
-        Nunito: ['"Nunito Sans"', ...defaultTheme.fontFamily.sans]
+        main: ['"Quicksand"', ...defaultTheme.fontFamily.sans]
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
