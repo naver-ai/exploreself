@@ -3,19 +3,42 @@ import { HomeIcon } from '@heroicons/react/20/solid'
 
 const members = [
     {
-        name: "Suhyeon Yoo",
-        affiliation: "University of Toronto",
-        role: "PhD Candidate",
-        thumb: require("../../public/images/thumb-shyoo.jpg"),
-        web: "https://catherina423.blogspot.com/",
+        name: "Inhwa Song",
+        affiliation: "KAIST",
+        role: "Undergraduate student",
+        thumb: require("../../public/images/thumb-ihsong.jpg"),
+        web: "https://inhwasong.com/",
         note: "*Research intern at NAVER AI Lab"
     },
     {
-        name: "Khai N. Truong",
-        affiliation: "University of Toronto",
-        role: "Professor",
-        thumb: require("../../public/images/thumb-truong.jpg"),
-        web: "https://www.cs.toronto.edu/~khai/"
+        name: "SoHyun Park",
+        affiliation: "NAVER Cloud",
+        role: "Researcher",
+        thumb: require("../../public/images/thumb-shpark.jpg")
+    },
+
+    {
+        name: "Sachin R. Pendse",
+        affiliation: "Northwestern University",
+        role: "Postdoctoral Fellow",
+        thumb: require("../../public/images/thumb-spendse.jpg"),
+        web: "https://www.sachinpendse.in/"
+    },
+
+    {
+        name: "Jessica Lee Schleider",
+        affiliation: "Northwestern University",
+        role: "Associate Professor",
+        thumb: require("../../public/images/thumb-schleider.jpg"),
+        web: "https://www.schleiderlab.org/labdirector.html"
+    },
+
+    {
+        name: "Munmun De Choudhury",
+        affiliation: "Georgia Institute of Technology",
+        role: "Associate Professor",
+        web: "http://www.munmund.net/",
+        thumb: require("../../public/images/thumb-choudhury.jpg")
     },
     {
         name: "Young-Ho Kim",
@@ -53,8 +76,11 @@ export const Members = () => {
         </div>
         <div className="mt-8 flex items-center gap-6 gap-y-8 flex-wrap">
             <a href="https://clova.ai/en/ai-research" target="_black"><img className="w-[200px]" alt="NAVER logo" src={require("../../public/images/logos/ai_lab_logo_vertical.png")} width={1728} height={552}/></a>
-            <a href="https://www.utoronto.ca/" target="_blank"><img className="w-[240px]" alt="Toronto logo" src={require("../../public/images/logos/toronto-logo.png")}/></a>
             <a href="https://www.navercloudcorp.com/" target="_blank"><img className="w-[135px]" alt="NAVER Cloud logo" src={require("../../public/images/logos/naver-cloud-logo-vertical.png")}/></a>
+            <a href="https://www.kaist.ac.kr/en/" target="_blank"><img className="w-[200px]" alt="KAIST logo" src={require("../../public/images/logos/kaist_logo_trans.png")}/></a>
+            <a href="https://www.northwestern.edu/" target="_blank"><img className="w-[220px]" alt="Northwestern logo" src={require("../../public/images/logos/northwestern-logo.png")}/></a>
+            <a href="https://www.gatech.edu/" target="_blank"><img className="w-[220px]" alt="Georgia Tech logo" src={require("../../public/images/logos/gatech.png")}/></a>
+            
             
         </div>
     </Section>
