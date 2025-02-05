@@ -18,7 +18,7 @@ const config: Config = {
     },
     extend: {
       fontFamily: {
-        main: ['"Quicksand"', ...defaultTheme.fontFamily.sans]
+        main: ['"Mulish"', ...defaultTheme.fontFamily.sans]
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
