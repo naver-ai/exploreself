@@ -17,6 +17,7 @@ export function App() {
       
       <Demo/>
       <Abstract/>
+      <Video/>
       <Members/>
       <Cite/>
       <Acknowledgments/>
